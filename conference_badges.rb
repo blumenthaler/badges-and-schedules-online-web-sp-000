@@ -35,5 +35,7 @@ def printer(speakers)
   
   # output results of #assign_rooms method
   # iterate over array of room assignments in order to puts each assignment
+  
+  
 end
 
