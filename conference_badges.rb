@@ -27,6 +27,8 @@ end
 
 def printer(speakers)
   # output results of #batch_badge_creator method
+  batch_badge_creator(speakers)
+  
   # output results of #assign_rooms method
   # iterate over array of room assignments in order to puts each assignment
 end
