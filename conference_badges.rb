@@ -28,7 +28,7 @@ end
 def printer(speakers)
   # output results of #batch_badge_creator method
   batch_badge_creator(speakers)
-  new_badges. each do |badge_message|
+  new_badges.each do |badge_message|
     puts badge_message
   end
   # output results of #assign_rooms method
