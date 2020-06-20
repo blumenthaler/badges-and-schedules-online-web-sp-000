@@ -26,16 +26,10 @@ def assign_rooms(speakers)
 end
 
 def printer(speakers)
-  # output results of #batch_badge_creator method
-  
   new_badges = batch_badge_creator(speakers)
   new_badges.each do |badge_message|
     puts badge_message
   end
-  
-  # output results of #assign_rooms method
-  # iterate over array of room assignments in order to puts each assignment
-  
   assign_messages = assign_rooms(speakers)
   assign_messages.each do |message|
     puts message
