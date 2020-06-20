@@ -28,6 +28,6 @@ end
 def printer
   # output results of batach badge #batch_badge_creator method
   # output results of #assign_rooms method
-
+  # iterate over array of room assignments in order to puts each assignment
 
 
